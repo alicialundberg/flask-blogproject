@@ -1,0 +1,19 @@
+{% extends "index.html" %}
+{% block body %}
+  <div class="parallax-2">
+    <div class="parallax-body">
+      <div class="jumbotron jumbotron-style">
+        <h1 class="header-font text-center">Välkommen Admin!</h1>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align: center; margin-top: 50px; margin-bottom: 20px;">
+  {% if session.logged_in %}
+    <a href="{{ url_for('admin_contact') }}" class="btn btn-default" role="button">Lista över användare!</a>
+    <a href="{{ url_for('add_blog') }}" class="btn btn-default" role="button">Skriv ett blogginlägg!</a>
+  {% endif %}
+   <h2>Schema</h2>
+   <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ccccff&amp;src=r6nhjkv853djeglnm46jjpamsk%40group.calendar.google.com&amp;color=%236B3304&amp;ctz=Europe%2FStockholm" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+ </div>
+{% endblock %}

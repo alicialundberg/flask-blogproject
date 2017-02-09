@@ -1,0 +1,27 @@
+{% extends "index.html" %}
+{% block body %}
+  <div class="parallax-2">
+    <div class="parallax-body">
+      <div class="jumbotron jumbotron-style">
+        <h1 class="header-font text-center">Nyhetsbloggen!</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div style="text-align: center; margin-top: 30px;">
+        <table border = 1>
+             <thead>
+                <td>Name</td>
+                <td>Email</td>
+             </thead>
+
+             {% for row in users %}
+                <tr>
+                   <td>{{row["name"]}}</td>
+                   <td>{{row["email"]}}</td>
+                </tr>
+             {% endfor %}
+        </table>
+    </div>
+  </div>
+{% endblock %}

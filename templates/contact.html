@@ -1,0 +1,36 @@
+{% extends "index.html" %}
+{% block body %}
+
+  <div class="parallax">
+    <div class="parallax-body">
+      <div class="jumbotron jumbotron-style">
+        <h1 class="header-font text-center">Kontakt!</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-2">
+        <h2 style="text-align: center;">SKriv in namn och email-adress, så kontaktar vi dig!</h2>
+          <p style="text-align: center">Få allt mellan nyhetsbrev, hjälp och annat kul!</p>
+            <form action="{{ url_for('addContact') }}" method="POST">
+                {{ form.csrf_token }}
+
+              <div style="font-size:20px; font-weight:bold; text-align:center; margin: 20px;">
+
+                {{ form.name.label }}
+                {{ form.name }}
+                <br>
+
+                {{ form.email.label }}
+                {{ form.email }}
+                <br><br>
+                {{ form.submit }}
+              </div>
+            </form>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

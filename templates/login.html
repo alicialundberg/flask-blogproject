@@ -1,0 +1,36 @@
+{% extends "index.html" %}
+{% block body %}
+<div class="parallax">
+  <div class="parallax-body">
+    <div class="jumbotron jumbotron-style">
+      <h1 class="header-font text-center">Admin</h1>
+    </div>
+  </div>
+</div>
+
+  <h2 class="text-center">Sign in</h2>
+  <form action="/login" method="post" name="login">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-2">
+              <label for="username">Username:</label>
+              <input type="text" class="form-control" name="username" value=""><br>
+            </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-2">
+            <label for="password">Password:</label>
+            <input type="text" class="form-control" name="password" value=""><br>
+            </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-default">Login!</button>
+    </div>
+
+  </form>
+{% endblock %}

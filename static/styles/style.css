@@ -1,0 +1,690 @@
+
+::selection {
+    text-shadow: none;
+    background: #1ee2e7;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body {
+
+    line-height: 1.8;
+    color: #818181;
+}
+
+li {
+    width: 200px;
+}
+.nav-text {
+      font: 20px "Montserrat", sans-serif;
+      line-height: 1.8;
+         font-weight: 100;
+         font-size: 18px;
+         text-transform: uppercase;
+    color: white !important;
+
+}
+.nav {
+      font: 20px "Montserrat", sans-serif;
+      line-height: 1.8;
+         font-weight: 100;
+         font-size: 18px;
+         text-transform: uppercase;
+    color: white !important;
+
+
+}
+.container-fluid1 {
+    padding: 60px 50px;
+}
+.container-break {
+    padding: 0 !important;
+}
+.border-bottom {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #dc32dc;
+
+}
+
+.glyphicon-arrow-down {
+    color: white !important;
+    margin-top: -20px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    width: auto;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+
+     text-decoration: underline;
+    -webkit-transition: ease-in-out .2s !important;
+    color: #17d0d5 !important;
+    width: 100% !important;
+}
+.navbar-toggle {
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    font-family: sans-serif;
+    color: white !important;
+}
+.glyphicon-globe {
+    color:#1894bd !important;
+}
+.logo_tagline {
+    font-family: "Century Gothic";
+    color: white;
+    height: inherit;
+    font-size: 12px;
+    margin-top: -9px;
+    font-style: italic;
+}
+.logo_tagline-2 {
+    font-family: "Century Gothic";
+    color: white;
+    height: inherit;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.subtext-second {
+    font-family: sans-serif;
+    color: black;
+}
+.header-second {
+    color: black !important;
+
+}
+.passion{
+    font-family: "Montserrat";
+}
+.text-headers {
+    font-size: 30px;
+    color: white;
+    margin-top: -80px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-style: italic;
+}
+.intro {
+    color: white;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-top: -90px;
+    font-weight: 700;
+}
+
+
+.sub-text-2 {
+    color: rgb(255, 61, 126);
+    font-family: "Montserrat";
+    font-size: 93.46px;
+    font-weight: 100;
+    margin-top: -40px;
+}
+.sub-text {
+    color: rgb(255, 61, 126);
+    font-family: "Montserrat";
+    word-spacing: 0px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-size: 93.46px;
+    font-weight: 100;
+}
+.web-info {
+    color: rgb(195, 92, 255);
+    font-family: "Montserrat";
+    word-spacing: -0.25px;
+    letter-spacing: 0px;
+    font-size: 27.925px;
+    font-weight: 600;
+}.symbols {
+    font-size: 52px;
+    color: hsl(226, 83%, 56%);
+}
+.button-div {
+    width: 100%;
+    background-color: hsla(0,0%,0%,.1);
+    position : absolute;
+    bottom : 0px;
+    height : 60px;
+    margin-top : 40px;
+
+}
+.hljs-keyword {
+    color: green;
+}
+.hljs, .hljs-subst {
+    color: white;
+}
+.hljs-number {
+    color: #FF0000;
+}
+.hljs-string {
+    color: yellow;
+}
+pre {
+     margin-top: 50px;
+     background-color: transparent;
+    border: 0;
+
+}
+.hljs {
+    background-color: transparent !important;
+}
+.button {
+    background-color: #0C9EFF !important;
+    width: 60px;
+    height: 60px;
+    position: relative!important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    font: 14px "Montserrat", sans-serif;
+    color: white;
+
+    text-decoration: none;
+}
+.button-text {
+    font: 14.5px "verdana" !important;
+    color: white;
+    font-weight: 300;
+    text-decoration: none !important;
+}
+    .parallax {
+    /* The image used */
+    /*  background-image: url(img/scary____hall_by_efra995-d9nhnv0.png); */
+      /*  background: linear-gradient(hsl(0, 0%, 95%), hsl(0, 0%, 85%));
+    /* Set a specific height */
+      /*  background-image: url("../img/uploads%252F14115408840644deb16b0%252F2dc933e3.jpg");*/
+    min-height: 100%;
+    width: 100%;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+ .glyphicon-style {
+    font-size: 200px;
+    margin-bottom: 20px;
+     margin-top: 20px;
+    color: #f4511e;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.parallax-2 {
+    /* The image used */
+  /*  background-image: url("../img/tumblr_mrw033KbY01rzanhwo1_1280.jpg"); */
+    background-color: #1C1C1C;
+    /* Set a specific height */
+    min-height: 50%;
+
+
+
+   /* background-image: url("../img/a1vOWnJ1.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#projects {
+    width: 100%;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+.parallax-2-body {
+    /* The image used */
+    /*  background-image: url("../img/tumblr_mrw033KbY01rzanhwo1_1280.jpg"); */
+
+
+    /* Set a specific height */
+    min-height: 50%;
+    background-color: transparent;
+    background-image: url("../img/cats.png");
+
+
+    /* background-image: url("../img/a1vOWnJ1.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-body {
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(160,200,100);
+    height: 800px;
+}
+
+
+.parallax-3 {
+    /* The image used */
+  /*  background-image: url("../img/tumblr_ms1oykQzTe1rzanhwo1_1280.jpg"); */
+
+    /* Set a specific height */
+
+    background-color: steelblue;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+     .navbar {
+         padding-top: 10px;
+         padding-bottom: 10px;
+         margin-bottom: 0;
+
+         border: 0;
+       /*  height: 50px !important; */
+     }
+
+.parallax-1 {
+    height: 100%;
+}
+
+.text-muted {
+    font-family: 'Verdana';
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #262626;
+    padding: 20px 20px;
+}
+.jumbotron {
+
+    color: #fff !important;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif !important;
+    margin-bottom: inherit;
+}
+.jumbotron-s {
+    background-color: transparent !important;
+}
+.jumbotron-bg{
+        background-image: url("../img/traideal.PNG");
+        background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.image-space {
+    margin-bottom: 1em;
+}
+ li {
+     padding-left: -30px !important;
+     margin-left: 10px;
+     width: 150px;
+}
+
+.form-control {
+    border-radius: 20px;
+    color: inherit;
+}
+.glyphicon-chevron-right {
+    font-size: 25px;
+}
+.form-control-2 {
+    background-color: transparent !important;
+    border-radius: 0;
+    border-width: 3px;
+    padding: 25px 25px;
+
+}
+.btn-style {
+    border-radius: 20px;
+}
+.btn-style-2 {
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 15px 25px;
+    border-width: 3px;
+    border-radius: 0;
+}
+.page-scroll-2 {
+    color: white !important;
+    font-family: 'Raleway',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none !important;
+
+
+}
+
+.navbar-style {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.div-box-left {
+    height: 100%;
+    min-height: 800px;
+    width: 60%;
+    background-image: url(../img/three.PNG);
+    background-size: cover;
+    float: left;
+}
+
+.div-box-right {
+    float: right;
+    height: 100%;
+
+    width: 40%;
+    background-color: rgba( 34, 31, 26, 0.8 );
+}
+.menu-logo {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+    height: auto;
+    margin-left: 15px;
+}
+.menu-logo {
+    background-color: red;
+    position: absolute;
+    width: 170px;
+    padding: 10px 15px;
+    margin-top: -10px;
+
+}
+
+.menu-logo-text {
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 23px;
+}
+/** LIGHTBOX MARKUP **/
+/** LIGHTBOX MARKUP **/
+.lightbox-shadow {
+
+}
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 1030;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+
+}
+.gallery {
+    margin-top: 80px;
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+     -webkit-transition: ease-in-out 1s;
+}
+.download {
+    margin-top: 20px;
+
+    height: 20em;
+    width: 100%;
+
+}
+.bottom-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+.headertext {
+    font-family: "Helvetica Black","Arial Black",Helvetica,Arial,sans-serif;
+}
+.thumbnail {
+  max-width: 70%;
+    display: inherit !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
+}
+.header-main-text {
+    font-family: "Raleway";
+}
+.download-main-text {
+    font-family: "Raleway"
+}
+.download-main-para {
+    font-family: "Century Gothic";
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    font-weight: 100 !important;
+}
+.header-main-para {
+    font-family: "Century Gothic";
+}
+/* Fade in down effect */ /* Fade in down effect */ /* Fade in down effect */
+
+
+
+.animated {
+    background-repeat: no-repeat;
+    background-position: left top;
+
+
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.animated-delay-1 {
+    background-repeat: no-repeat;
+    background-position: left top;
+    -webkit-animation-delay: 1s;
+
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.animated-delay-2 {
+    background-repeat: no-repeat;
+    background-position: left top;
+    -webkit-animation-delay: 2s;
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+.btn-xl {
+    padding: 13px 40px;
+    border-color: #1ee2e7;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1ee2e7;
+}
+.glyphicon-styles {
+    color: #1894bd !important;
+    font-size: 50px;
+}
+.header-font {
+    font-family: 'Lato' !important;
+    font-weight: 100 !important;
+    color: white !important;
+
+}
+.header-font-p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100 !important;
+    color: white !important;
+
+}
+.service-font {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color:white !important;
+}
+.font-custom {
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+.container-bg {
+    background-color: #262626;
+}
+
+/* BUTTON STYLE */
+.button-dsgn {
+    padding: 12px 37px;
+    border-radius: 0;
+    border-color: transparent;
+    background-color: #440D54;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Exo', sans-serif;
+   /* box-shadow: 6px 10px 28px #888888; */
+    -webkit-transition: ease-in-out .2s;
+}
+
+/* KEEP IN MIND THIS IS A TEST */
+.body {
+
+    color: #fff;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+        typing 1.5s steps(20, end),
+        blink-caret .75s step-end infinite;
+
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: darkturquoise; }
+}0% { border-color: darkturquoise; }
+}
+.body {
+    color: #fff;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    overflow: hidden !important;
+
+}
+.typewriter p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .04em; /* Adjust as needed */
+    color: black;
+    animation:
+        typing 1.5s steps(20, end),
+        blink-caret .75s step-end infinite;
+    transition: visibility 0s, opacity 0.5s linear;
+
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: darkturquoise; }
+}0% { border-color: darkturquoise; }
+}

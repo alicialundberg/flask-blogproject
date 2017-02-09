@@ -1,0 +1,69 @@
+{% extends "index.html" %}
+{% block body %}
+  <div id="Home">
+    <div class="parallax">
+      <div class="parallax-body">
+        <div class="jumbotron jumbotron-style">
+          <h1 class="header-font text-center">BTH Bloggen</h1>
+           <hr class="small">
+            <p class="text-center sub-font" style=" font-weight: bold; color: white !important;">Din dagliga nyhetssida!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects">
+    <img src="static/img/download.svg">
+    <div class="container-fluid container-fluid1 container-bg">
+      <div class="col-md-8">
+          <h2 class="font-custom">About Us</h2><br>
+          <h4 class="font-custom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+          <p class="font-custom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="font-custom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="Code"></div>
+    <div class="parallax-2-body">
+      <div class="container">
+        <div class="row">
+          <div style="margin-top: 100px; margin-bottom: 50px;">
+            <h1 style="font-size: 30px;  color:black;" class="text-center">Vi uppdaterar dig om senaste nytt som händer på BTH!</h1>
+            <p class="service-font text-center" style="font-weight: 300; margin-top: 10px; color: black;">Vill du att vi tar kontakt med dig? Klicka på knappen nedan!</p>
+            <div style="text-align: center;">
+              <a href="{{ url_for('addContact') }}" class="btn btn-default" role="button">Kontakta mig!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div
+
+  <div id="Services">
+    <div class="container-fluid text-center bg-grey">
+    <h1 style="text-align: center; margin-top: 100px;">Portfolio</h1>
+    <h3 style="text-align: center; margin: 50px;">What we have created</h3>
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="static/img/news.png" alt="Nyheter">
+          <p><strong>Komplett nyhetsflöde!</strong></p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="static/img/pihome.png" alt="Pihome">
+          <p><strong>PiHome Automation</strong></p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="static/img/nojkoll.png" alt="NojKollen">
+          <p><strong>NojKollen</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

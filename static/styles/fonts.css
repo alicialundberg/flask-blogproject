@@ -1,0 +1,11 @@
+
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    , .sub-text, .web-info, .sub-text-2, .intro,  {
+font-size: 2em !important; /* 1.2x default size */
+}
+}
+@media all and (max-width: 500px) { /* screen size until 500px */
+     .sub-text, .web-info, .sub-text-2, .intro {
+font-size: 2em !important; /* 0.8x default size */
+}
+}
